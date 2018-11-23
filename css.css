@@ -1,0 +1,161 @@
+h1 {
+    Font-size:7em;
+    text-align:left;
+	margin-top		: 0.5em;
+	margin-top		: 0em;
+    color:rgb(14, 61, 114);
+    margin-bottom: 0.1em;
+}
+p{
+    font-family: Arial, serif;
+text-align: justify;
+    line-height: 1.5em;
+}  
+.margin{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color:rgb(14, 61, 114);
+    border-left:1px black solid;
+    border-right:1px black solid;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color:rgb(232, 247, 21);
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 10px;
+    background-color: white;
+    background-color:rgb(14, 61, 114);
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 20px;
+    color:#ffffff;
+    background-color:rgb(14, 61, 114);
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    margin-top: -10em;
+    display: block;
+} 	
+nav {
+background-color:rgb(14, 61, 114);
+	height:40px;
+}
+nav ul li a:hover {
+background-color:rgb(232, 247, 21);
+color:rgb(3, 3, 3);
+}
+h2{
+    margin-left:200px;
+}
+ .list{
+     list-style-type: disc;
+     margin-left: 15%;
+     margin-right: 27%;
+ }
+ .list2{
+    list-style-type: disc;
+    margin-left: 15%;
+    margin-right: 15%; 
+ }
+ .pochyk{
+     height: 27px;
+    position: absolute;
+    border-radius: 3px;
+     margin-left: 75%;
+     margin-top: 0.5%;
+ }
+ .pochykbuttom{
+    height: 27px;
+    border-radius: 3px;
+    position: absolute;
+     margin-left: 88.5%;
+     margin-top: 0.5%;
+ }
+ .pochykbuttom:hover{
+    background-color:rgb(111, 163, 241);
+ }
+ #Lutsk{
+    position: absolute;
+    margin-left: 1%;
+     margin-top: -15%;
+ }
+ .sign {
+    padding: 5px;
+    float: left;
+    border: 1px solid #333; 
+    margin: 0 15px 5px 5px; 
+    background: #f0f0f0; 
+   }
+   .sign1 {
+       padding: 5px;
+    margin: 0 0 5px 15px;
+    float: right; 
+    border: 1px solid #333;
+    background: #f0f0f0; 
+   }
+   .sign figcaption {
+   text-align:center;
+    margin: 5px auto 3px; 
+   }
+   .sign1 figcaption {
+   text-align:center;
+    margin: 5px auto 3px; 
+   }
+   .sign2 {
+    padding: 5px;
+ margin: 20px 20px 5px 15px;
+ float: left; /* Выравнивание по правому краю */
+ border: 1px solid rgb(10, 10, 10); /* Параметры рамки */
+ background: #ccdefa; /* Цвет фона */ 
+}
+.sign2 figcaption {
+text-align:center;
+ margin: 10px auto 5px;
+}
+.gellery img{  
+margin:5px;
+border:4px solid  rgb(252, 248, 248);
+}
+a.photo:hover img{
+    border:4px solid  rgb(14, 61, 114);   
+}
+.pidpis{
+    display: list-item ;
+    padding: 2em 0;
+    position: relative;
+    background-color:rgb(14, 61, 114); 
+}
+
